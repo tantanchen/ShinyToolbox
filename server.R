@@ -1,5 +1,5 @@
 library(shiny)
-source("Optymyze Functions.R")
+source("Functions.R")
 
 options(shiny.maxRequestSize = -1)
 shinyServer(function(input, output, session) {
